@@ -1,0 +1,38 @@
+
+{% extends 'main/layout.html' %}
+{% load static %}
+
+{% block title %}Контакты{% endblock %}
+
+{% block content %}
+    <div class="features">
+        <h1>{{ title }}</h1>
+        <h3>Наши контакты</h3>
+        <p>Звоните, пишите, кричите!<br>А лучше шлите деньги</p>
+
+        <div class="right">
+            <div class="face">
+                <img class="face_first" src="{% static 'main/img/fb_gray.png' %}" alt="Facebook">
+                <img class="first_second" src="{% static 'main/img/fb.png' %}" alt="Facebook">
+            </div>
+            <div class="inst">
+                <img class="inst_first" src="{% static 'main/img/insta_gray.png' %}" alt="Instagram">
+                <img clas="inst_second" src="{% static 'main/img/insta.png' %}" alt="Instagram">
+            </div>
+            <div class="yout">
+                <img class="yout_first" src="{% static 'main/img/youtube_gray.png' %}" alt="Youtube">
+                <img class="yout_second" src="{% static 'main/img/youtube.png' %}" alt="Youtube">
+            </div>
+        </div>
+        <div>
+            <a class="button_main" href="{% url 'index' %}"><button class="btn btn-info">На главную страницу</button></a>
+        </div>
+    
+    </div>
+
+    <!-- <a class="button_main" href="{% url 'index' %}"><button class="btn btn-info">На главную страницу</button></a> -->
+
+
+{% endblock %}
+
+

@@ -1,0 +1,161 @@
+body {
+    background: rgb(177, 241, 190);
+}
+
+aside {
+    float: left;
+    background: hsl(105, 63%, 49%);
+    width: 20%;
+    padding: 2.5;
+    height: 100vh;
+    color: #fff;
+    border-right: 5 px solid #4d4d4d;
+}
+
+aside img {
+    width: 80px;
+    float: left;
+    margin-top: 10px;
+}
+
+aside .logo {
+    font-size: 30px;
+    margin-left: 10px;
+    /* padding-left: 10px; */
+    font-weight: bold;
+    position: relative;
+}
+
+aside h3 {
+    margin-top: 60px;
+    font-size: 25px;
+}
+
+aside ul {
+    list-style: none;
+}
+
+aside ul li {
+    color: #fff;
+    display: block;
+    margin-top: 20px;
+    transition: transform .6s ease;
+    text-decoration: none;
+}
+
+aside ul li:hover, aside ul a:hover {
+    color: hsl(141, 89%, 25%);
+    text-decoration: none;
+    transform: scale(1.1);
+}
+
+main .features {
+    float: left;
+    color: rgb(3, 114, 40);
+    margin-top: 100px;
+    text-align: center;
+    width: 75%;
+}
+
+main .features h1 {font-size: 50px;}
+main .features p {max-width: 400px; margin: 20px auto}
+
+main .button_main {
+    padding: 0px 100px 50px 0px;
+    text-align: center;
+    width: 31%;
+    display: inline-block;
+}
+
+
+.alert-warning {
+    background: rgb(154, 223, 130);
+    float: left;
+    clear: both;
+    width: 400px;
+    margin: 20px 34px;
+    text-align: left;
+}
+
+form {
+    margin-left: 32%;
+    width: 500px;
+    margin-top: 50px;
+}
+
+header {
+    width: 100%;
+    padding: 10px 0.5% 0px 0.5px;
+    background: transparent;
+    float: left;
+    position: fixed;
+}
+
+.footer {
+    border-top: solid 2px rgb(15, 91, 19);
+    text-align: center;
+    padding-top: 15px;
+}
+
+.footer p {
+    font-size: 15px;
+}
+
+.right {
+    padding: 90px 0px 130px 0px;
+    text-align: center;
+    width: 31%;
+    display: inline-block;
+}
+
+.face {
+    display: inline-block;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 20px;
+}
+
+.face_first {
+    opacity: 1px;
+    display: inline-block;
+    position: absolute;
+}
+
+.face_first:hover {
+    opacity: 0.00;
+}
+
+.inst {
+    display: inline-block;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 20px;
+}
+
+.inst_first {
+    opacity: 1px;
+    display: inline-block;
+    position: absolute;
+}
+
+.inst_first:hover {
+    opacity: 0.00;
+}
+
+.yout {
+    display: inline-block;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 20px;
+}
+
+.yout_first {
+    opacity: 1px;
+    display: inline-block;
+    position: absolute;
+}
+
+.yout_first:hover {
+    opacity: 0.00;
+}
+

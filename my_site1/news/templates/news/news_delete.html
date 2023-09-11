@@ -1,0 +1,17 @@
+{% extends 'main/layout.html' %}
+
+{% block title %}Удаление Объявления{% endblock %}
+
+{% block content %}
+    <div class="features">
+        <h1>Удаление объявления</h1>
+        <form method="post">
+            {% csrf_token %}
+            <button class="btn btn-success" type="submit">Удалить объявление</button>
+            <a href="{% url 'index' %}"><button class="btn btn-info">На главную страницу</button></a>
+        </form>
+        
+    </div >
+
+
+{% endblock %}
